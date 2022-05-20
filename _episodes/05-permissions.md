@@ -95,7 +95,6 @@ it would mean that:
 *   everybody else can do nothing with it at all.
 
 
-> WORKED TILL ABOVE HERE:
 Let's look at this model in action.
 If we `cd` into the `labs` directory and run `ls -F`,
 it puts a `*` at the end of `setup`'s name.
@@ -129,7 +128,7 @@ safety.txt    setup*     waiver.txt
 
 
 
-> WORK TILL HERE?
+
 
 
 
