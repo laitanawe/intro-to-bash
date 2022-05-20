@@ -96,8 +96,6 @@ it would mean that:
 
 
 > WORKED TILL ABOVE HERE:
-
-
 Let's look at this model in action.
 If we `cd` into the `labs` directory and run `ls -F`,
 it puts a `*` at the end of `setup`'s name.
@@ -160,6 +158,10 @@ We'll skip over the second column for now
 (the one showing `1` for each file)
 because it's the first column that we care about most.
 This shows the file's permissions, i.e., who can read, write, or execute it.
+
+> WORK TILL HERE?
+
+
 
 Let's have a closer look at one of those permission strings:
 `-rwxr-xr-x`.
