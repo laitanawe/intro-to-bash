@@ -127,6 +127,10 @@ safety.txt    setup*     waiver.txt
 > (such as a web browser).
 {: .callout}
 
+
+
+> WORK TILL HERE?
+
 Now let's run the command `ls -l`:
 
 ~~~
@@ -158,10 +162,6 @@ We'll skip over the second column for now
 (the one showing `1` for each file)
 because it's the first column that we care about most.
 This shows the file's permissions, i.e., who can read, write, or execute it.
-
-> WORK TILL HERE?
-
-
 
 Let's have a closer look at one of those permission strings:
 `-rwxr-xr-x`.
