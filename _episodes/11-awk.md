@@ -3,6 +3,11 @@ layout: page
 title: AWK
 subtitle: Manipulating and filtering complex data
 minutes: 120
+questions:
+- "How can I find things in files?"
+objectives:
+- "Use `awk` to select lines from text files that match simple patterns."
+- "Use `awk` to print specific fields from text files."
 ---
 > ## Learning Objectives {.objectives}
 >
