@@ -1,9 +1,10 @@
 ---
 layout: lesson
+title: The Bash Shell
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
-FIXME: home page introduction
+Introduction:
 
 <!-- this is an html comment -->
 
@@ -23,8 +24,8 @@ allows users to perform complex and powerful tasks, often with just
  > This lesson guides you through the basics of file systems and the
  > shell. If you have stored files on a computer at all and recognize
  > the word "file" and either "directory" or "folder" (two common words
- > for the same thing), you're ready for this lesson. 
-> FIXME
+ > for the same thing), you're ready for this lesson.
+> 
 {: .prereq}
 
 {% include links.md %}
