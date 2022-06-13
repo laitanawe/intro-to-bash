@@ -1,10 +1,9 @@
 ---
 layout: lesson
-title: The Bash Shell
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
-Introduction:
+The Bash Shell:
 
 <!-- this is an html comment -->
 
@@ -25,7 +24,7 @@ allows users to perform complex and powerful tasks, often with just
  > shell. If you have stored files on a computer at all and recognize
  > the word "file" and either "directory" or "folder" (two common words
  > for the same thing), you're ready for this lesson.
-> 
+>
 {: .prereq}
 
 {% include links.md %}
