@@ -72,7 +72,7 @@ common networking and storage to support common compute intensive tasks.
 - Open the terminal
 ​
 - Type `ssh <username>@<remote server IP address|domain name>` where username is your username on the remote system and the IP address or domain name (that resolves to an IP address) to the remote system that you would like to connect to.  
----
+
 
 **Example ssh connection for this class.**
 ​
