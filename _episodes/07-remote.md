@@ -81,6 +81,6 @@ common networking and storage to support common compute intensive tasks.
 - Type `ssh user@<remote server IP address>` where ```user``` is your username on the remote system for this example. If you don't know it already, you can ask the instructor to provide you remote IP address. Your username is user for this example.
 ​
 - Notice the first time you connect to a new machine you may get asked the following question. ​
----
+
 
 {% include links.md %}
