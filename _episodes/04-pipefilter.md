@@ -345,7 +345,7 @@ the output of `head` must be the file with the fewest lines.
 > `tail` is similar, but prints lines from the end of a file instead.
 >
 > Consider the file `shell-lesson-data/exercise-data/animal-counts/animals.csv`.
-> After these commands, select the answer that
+> After running both of these commands, select the answer that
 > corresponds to the file `animals-subset.csv`:
 >
 > ~~~
