@@ -93,7 +93,29 @@ Are you sure you want to continue connecting (yes/no)?
 ​
 - Now your connected to the remote system things that you enter in the terminal are now being exicuted on the remote system.
 
-> ##  Look at the Remote Disk space (digital storage)
+
+> ##  Look at the Remote System's Available RAM (Memory)
+>
+>Lets take a look at the available memory on the remote systesm using the ```free -h``` command
+>
+>```
+>$ free -h
+>```
+>{: .bash}
+>
+>> ## Result
+>>```
+>>              total        used        free      shared  buff/cache   available
+>>Mem:           3.7G        193M        2.9G         16M        619M        3.1G
+>>Swap:            0B          0B          0B
+>>```
+>>{: .bash}
+>>{: .output}
+>{: .solution}
+{: .challenge}
+
+
+> ##  Look at the Remote System's Disk space (digital storage)
 >
 >Lets take a look at the available memory on the remote systesm using the ```df -h``` command
 >
@@ -119,7 +141,9 @@ Are you sure you want to continue connecting (yes/no)?
 ​
 SFTP stands for secure file transfer protocol and it is used to transfer files from one computer to another. Some commony used sftp client applications include CyberDuck, FileZilla, MobaXterm and WinSCP. You can contact your desktop or laptop system admistartor for information regarding the installation of an sftp client.
 ​
-MobaXtem will automatically establish and an sftp session when ssh'ing into a remote system. It is visible as a yellow globe on the left hand side of the MobaXterm terminal.
+
+MobaXtem will automatically establish and an sftp session when you ssh into a remote system. It is visible as a yellow globe on the left hand side of the MobaXterm terminal.
+
 ​
 Now we will do a live example of establishing a separate sftp connection to the remote server.
 
