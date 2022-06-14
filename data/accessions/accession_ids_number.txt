@@ -1,0 +1,9 @@
+USA-WC_nasopharyngeal_and_salivary-Illumina_MiSeq-Paired: 105
+Italy-Milan_Saliva-Illumina_MiSeq-Paired: 53
+France_Stool-Illumina_MiSeq-Paired: 131
+Germany_Stool-Illumina_MiSeq-Paired: 212
+India_Nasal-MinION-Single: 58
+North_America-New_York_Nasal-Illumina_MiSeq-Paired: 37
+Japan-tokyo_Stool-Illumina_MiSeq-Paired: 45
+USA-Nashville_Nasal-Illumina_MiSeq-Paired: 73
+China_Stool-Illumina_MiSeq-Paired: 106
