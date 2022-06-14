@@ -60,7 +60,7 @@ common networking and storage to support common compute intensive tasks.
 ​
 - Use the command `ssh <username>@<remote server IP address|domain name>` to connect to a remote server.
 ​
----
+
 **The details on how ssh works.**
 ​
 - The (local) client asks the remote server (sumhpc login node) to establish a connection.
