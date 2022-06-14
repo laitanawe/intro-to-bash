@@ -93,6 +93,48 @@ Are you sure you want to continue connecting (yes/no)?
 ​
 - Now your connected to the remote system things that you enter in the terminal are now being exicuted on the remote system.
 
+- Lets take a look at some challenges to look around on the remote system
+​
+> ##  Look at the Remote the CPUs
+>
+>Lets take a look at the CPU(s) on the remote systesm using the ```lscpu``` command
+>
+>```
+>$ lscpu
+>```
+>{: .bash}
+>
+>> ## Result
+>>```
+>> Architecture:          x86_64  
+>> CPU op-mode(s):        32-bit, 64-bit  
+>> Byte Order:            Little Endian  
+>> CPU(s):                2  
+>> On-line CPU(s) list:   0,1  
+>> Thread(s) per core:    2
+>> Core(s) per socket:    1
+>> Socket(s):             1
+>> NUMA node(s):          1
+>> Vendor ID:             GenuineIntel
+>> CPU family:            6
+>> Model:                 79
+>> Model name:            Intel(R) Xeon(R) CPU @ 2.20GHz
+>> Stepping:              0
+>> CPU MHz:               2200.146
+>> BogoMIPS:              4400.29
+>> Hypervisor vendor:     KVM
+>> Virtualization type:   full
+>> L1d cache:             32K
+>> L1i cache:             32K
+>> L2 cache:              256K
+>> L3 cache:              56320K
+>> NUMA node0 CPU(s):     0,1
+>> Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt arat md_clear spec_ctrl intel_stibp arch_capabilities
+>>```
+>>{: .bash}
+>>{: .output}
+>{: .solution}
+{: .challenge}
 
 > ##  Look at the Remote System's Available RAM (Memory)
 >
