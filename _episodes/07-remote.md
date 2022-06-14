@@ -53,4 +53,16 @@ impressive than the [Top-500](https://www.top500.org). Clusters are often
 maintained in computing centers that support several such systems, all sharing
 common networking and storage to support common compute intensive tasks.
 
+
+# SSH Basics
+​
+**The take home from this lesson.**
+​
+- Use the command `ssh <username>@<remote server IP address|domain name>` to connect to a remote server.
+​
+**The details on how ssh works.**
+​
+- The (local) client asks the remote server (sumhpc login node) to establish a connection.
+- The server and the client work together to encrypt the contents of data transfered through the connection.
+
 {% include links.md %}
