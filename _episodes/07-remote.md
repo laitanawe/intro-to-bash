@@ -95,7 +95,8 @@ Are you sure you want to continue connecting (yes/no)?
 
 - Lets take a look at some challenges to look around on the remote system
 ​
-> ##  Look at the Remote the CPUs
+---
+> ##  Look at the Remote System's CPUs
 >
 >Lets take a look at the CPU(s) on the remote systesm using the ```lscpu``` command
 >
