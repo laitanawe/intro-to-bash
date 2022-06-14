@@ -82,5 +82,24 @@ common networking and storage to support common compute intensive tasks.
 ​
 - Notice the first time you connect to a new machine you may get asked the following question. ​
 
+```BASH
+[user@edu-vm-63d1410f-2 ~]$ ssh user@35.227.70.171
+The authenticity of host '35.227.70.171 (35.227.70.171)' can\'t be established.
+ECDSA key fingerprint is SHA256:UTHv5IOvrF9uvxuh9Fo8uW2bx0BwCRLyrwHhONoiIj8.
+ECDSA key fingerprint is MD5:15:bb:25:2a:3a:45:f4:c7:df:21:26:37:12:66:79:77.
+Are you sure you want to continue connecting (yes/no)?
+```
+- If this is the system that you are looking to connect and you trust it, then type `yes`.
+​
+- Now your connected to the remote system things that you enter in the terminal are now being exicuted on the remote system.
+
+---
+# SFTP
+​
+SFTP stands for secure file transfer protocol and it is used to transfer files from one computer to another. Some commony used sftp client applications include CyberDuck, FileZilla, MobaXterm and WinSCP. You can contact your desktop or laptop system admistartor for information regarding the installation of an sftp client.
+​
+MobaXtem will automatically establish and an sftp session when ssh'ing into a remote system. It is visible as a yellow globe on the left hand side of the MobaXterm terminal.
+​
+Now we will do a live example of establishing a separate sftp connection to the remote server.
 
 {% include links.md %}
