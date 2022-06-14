@@ -65,20 +65,24 @@ common networking and storage to support common compute intensive tasks.
 ​
 - The (local) client asks the remote server (sumhpc login node) to establish a connection.
 - The server and the client work together to encrypt the contents of data transfered through the connection.
+
 ---
 **Using ssh to connect to remote server.**
 ​
 - Open the terminal
 ​
 - Type `ssh <username>@<remote server IP address|domain name>` where username is your username on the remote system and the IP address or domain name (that resolves to an IP address) to the remote system that you would like to connect to.  
-​---
-**Example ssh connection for this class**
+-
+​
+---
+**Example ssh connection for this class.**
 ​
 - Open the terminal
 ​
 - Type `ssh user@<remote server IP address>` where ```user``` is your username on the remote system for this example. If you don't know it already, you can ask the instructor to provide you remote IP address. Your username is user for this example.
 ​
 - Notice the first time you connect to a new machine you may get asked the following question. ​
+
 ---
 
 {% include links.md %}
