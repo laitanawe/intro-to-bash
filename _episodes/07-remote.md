@@ -98,7 +98,7 @@ Are you sure you want to continue connecting (yes/no)?
 ​
 SFTP stands for secure file transfer protocol and it is used to transfer files from one computer to another. Some commony used sftp client applications include CyberDuck, FileZilla, MobaXterm and WinSCP. You can contact your desktop or laptop system admistartor for information regarding the installation of an sftp client.
 ​
-MobaXtem will automatically establish and an sftp session when ssh'ing into a remote system. It is visible as a yellow globe on the left hand side of the MobaXterm terminal.
+MobaXtem will automatically establish and an sftp session when ssh'ing into a remote system. It is visible as a yellow globe on the left hand side of the MobaXterm terminal. 
 ​
 Now we will do a live example of establishing a separate sftp connection to the remote server.
 
