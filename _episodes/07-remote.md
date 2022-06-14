@@ -3,11 +3,10 @@ title: "Working on a remote HPC system"
 teaching: 25
 exercises: 10
 questions:
-- "What is an HPC system?"
-- "How does an HPC system work?"
-- "How do I log in to a remote HPC system?"
+- "What is an HPC system and how does it work?"
+- "How do I connect to a remote HPC system?"
 objectives:
-- "Understand how to connect to a remote HPC system."
+- "Understand how ssh and related tools are used to connect to a remote HPC system."
 - "Understand the general HPC system architecture."
 keypoints:
 - "An HPC system is a set of networked machines."
@@ -16,6 +15,9 @@ keypoints:
   type (amount of RAM, processor architecture, availability of network mounted
   filesystems, etc.)."
 - "Files saved on one node are available on all nodes."
+- "ssh is the preferred way to connect to Linux servers"
+- "ssh is secure and protects information sent"
+- "sftp is available in a command line application and in GUI based applications for file transfers"
 ---
 
 ## What Is an HPC System?
