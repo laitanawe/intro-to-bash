@@ -95,7 +95,22 @@ it would mean that:
 *   everybody else can do nothing with it at all.
 
 
-
+Let's look at this model in action.
+If we `cd` into any directory that has some files in it and run `ls -F`,
+it puts a `*` at the end of `setup`'s name.
+This is its way of telling us that `setup` is executable,
+i.e.,
+that it's (probably) something the computer can run.
+You can do this on any directory of your choice (Assuming there is a lab directory).
+~~~
+$ cd labs
+$ ls -F
+~~~
+{: .bash}
+~~~
+safety.txt    setup*     waiver.txt
+~~~
+{: .output}
 
 > ## Necessary But Not Sufficient
 >
