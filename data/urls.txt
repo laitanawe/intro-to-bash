@@ -1,2 +1,4 @@
 https://zenodo.org/record/801828/files/rdp_train_set_16.fa.gz
 https://zenodo.org/record/801828/files/rdp_species_assignment_16.fa.gz
+https://laitanawe.github.io/intro-to-bash/data/accessions.zip
+https://laitanawe.github.io/intro-to-bash/data/runtable.zip
