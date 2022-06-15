@@ -120,10 +120,10 @@ Are you sure you want to continue connecting (yes/no)?
 
 > ##  Look at the Remote System's Disk space (digital storage)
 >
->Lets take a look at the available memory on the remote systesm using the ```df -h``` command
+>Lets take a look at the available memory on the remote systesm using the ```df -h .``` command
 >
 >```
->$ df -h
+>$ df -h .
 >```
 >{: .bash}
 >
