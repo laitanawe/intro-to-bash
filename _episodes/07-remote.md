@@ -20,7 +20,7 @@ keypoints:
 - "sftp is available in a command line application and in GUI based applications for file transfers"
 ---
 
-## What Is an HPC System?
+## What is an HPC System?
 
 The words "cloud", "cluster", and the phrase "high-performance computing" or
 "HPC" are used a lot in different contexts and with various related meanings.
@@ -67,7 +67,7 @@ common networking and storage to support common compute intensive tasks.
 - The server and the client work together to encrypt the contents of data transfered through the connection.
 
 ---
-**Using ssh to connect to remote server.**
+**Using ssh to connect to a remote server.**
 ​
 - Open the terminal
 ​
