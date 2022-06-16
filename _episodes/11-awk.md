@@ -90,7 +90,7 @@ row. Let's see for our table:
 $ awk '{print NF}' example.txt
 ~~~
 
-We can see that some lines contain 6 fields while others contain 1,2,3 or 9 of them.
+We can see that some lines contain 6 fields while others contain 1, 2, 3 or 9 of them.
 Since NF is the number of the last field, $NF contains its value.
 
 ~~~ {.bash}
@@ -103,7 +103,9 @@ $ awk '{print "This line has",NF,"columns. The last one contains",$NF}' example.
 
 To specify the field separator, we should provide it at command line like:
 
+
 ~~~ {.bash}
+$ cp ../animal-counts/animals.csv example2.txt
 $ awk -F "," '{print $2}' example2.txt
 ~~~
 
