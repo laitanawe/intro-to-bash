@@ -399,7 +399,7 @@ Miscellaneous:
 > > ```
 > > for sis in Jo Meg Beth Amy
 > > do
-> >     echo $sis:
+> >     echo -n $sis:
 > >     grep -ow $sis LittleWomen.txt | wc -l
 > > done
 > > ```
@@ -409,7 +409,7 @@ Miscellaneous:
 > > ```
 > > for sis in Jo Meg Beth Amy
 > > do
-> >     echo $sis:
+> >     echo -n $sis:
 > >     grep -ocw $sis LittleWomen.txt
 > > done
 > > ```
@@ -417,7 +417,7 @@ Miscellaneous:
 > >
 > > This solution is inferior because `grep -c` only reports the number of lines matched.
 > > The total number of matches reported by this method will be lower if there is more
-> > than one match per line.
+> > than one match per line. The -n option is needed because we don't want a character return after printing the name of a sister.
 > >
 > > Perceptive observers may have noticed that character names sometimes appear in all-uppercase
 > > in chapter titles (e.g. 'MEG GOES TO VANITY FAIR').
@@ -667,7 +667,7 @@ $ grep "searching" $(find . -name "*.txt")
 > > Option 1. is correct. Putting the match expression in quotes prevents the shell
 > > expanding it, so it gets passed to the `find` command.
 > >
-> > Option 2 is also works in this instance because the shell tries to expand `*.dat`
+> > Option 2 also works in this instance because the shell tries to expand `*.dat`
 > > but there are no `*.dat` files in the current directory,
 > > so the wildcard expression gets passed to `find`.
 > > We first encountered this in
