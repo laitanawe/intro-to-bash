@@ -90,7 +90,7 @@ row. Let's see for our table:
 $ awk '{print NF}' example.txt
 ~~~
 
-We can see that some lines contain 6 fields while others contain 7 of them.
+We can see that some lines contain 6 fields while others contain 1,2,3 or 9 of them.
 Since NF is the number of the last field, $NF contains its value.
 
 ~~~ {.bash}
