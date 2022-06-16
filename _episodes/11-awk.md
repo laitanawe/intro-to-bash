@@ -1,5 +1,4 @@
 ---
-layout: page
 title: AWK
 subtitle: Manipulating and filtering complex data
 minutes: 120
