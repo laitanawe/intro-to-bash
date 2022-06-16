@@ -26,7 +26,7 @@ showed command for word counting wc. Go into the proteins directory
 and first copy ethane.pdb to example.txt, do these:
 
 ~~~ {.bash}
-$ cd shell-lesson-data/exercise-data/proteins
+$ cd ~/Desktop/shell-lesson-data/exercise-data/proteins
 $ cp ethane.pdb to example.txt
 $ wc -l example.txt
 ~~~
@@ -107,7 +107,7 @@ To specify the field separator, we should provide it at command line like:
 
 
 ~~~ {.bash}
-$ cp ../animal-counts/animals.csv example2.txt
+$ cp ~/Desktop/shell-lesson-data/exercise-data/animal-counts/animals.csv example2.txt
 $ awk -F "," '{print $2}' example2.txt
 ~~~
 
