@@ -22,7 +22,8 @@ objectives:
 Prerequisite: shell and any programming language
 
 If we need to count the number of lines in a file, we can use the previously
-showed command for word counting wc
+showed command for word counting wc. Go into the proteins directory
+and first copy ethane.pdb to example.txt, then do these:
 
 ~~~ {.bash}
 $ wc -l example.txt
