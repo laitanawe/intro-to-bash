@@ -23,9 +23,11 @@ Prerequisite: shell and any programming language
 
 If we need to count the number of lines in a file, we can use the previously
 showed command for word counting wc. Go into the proteins directory
-and first copy ethane.pdb to example.txt, then do these:
+and first copy ethane.pdb to example.txt, do these:
 
 ~~~ {.bash}
+$ cd shell-lesson-data/exercise-data/proteins
+$ cp ethane.pdb to example.txt
 $ wc -l example.txt
 ~~~
 
@@ -121,6 +123,7 @@ Awk allows you to specify a matching pattern, like the command grep does.
 Let's look at the file content
 
 ~~~ {.bash}
+$ cp ethane.pdb example.pdb
 $ awk '{print $0}' example.pdb
 ~~~
 
