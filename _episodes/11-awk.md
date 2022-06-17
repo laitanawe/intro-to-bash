@@ -27,7 +27,7 @@ and first copy ethane.pdb to example.txt, do these:
 
 ~~~ {.bash}
 $ cd ~/Desktop/shell-lesson-data/exercise-data/proteins
-$ cp ethane.pdb to example.txt
+$ cp ethane.pdb example.txt
 $ wc -l example.txt
 ~~~
 
