@@ -602,6 +602,19 @@ so that you and other people can put those programs into pipes to multiply their
 > {: .solution}
 {: .challenge}
 
+## Executing Multiple Commands in one line: These concepts are important in bash.
+> 1.  `A; B`    # Run command A and then B, regardless of success of A
+> 2.  `A && B`  # Run command B if and only if A succeeded
+> 3.  `A || B`  # Run command B if and only if A failed
+> 4.  `A &`     # Run command A in background.
+
+For example, we can type:
+~~~
+$ cd north-pacific-gyre
+$ wc -l *.txt && echo "word count completed!"
+~~~
+{: .language-bash}
+
 ## Nelle's Pipeline: Checking Files
 
 Nelle has run her samples through the assay machines
