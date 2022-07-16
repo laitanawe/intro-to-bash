@@ -13,10 +13,12 @@ You need to download some files to follow this lesson.
    You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
 
 ## Install software
-If you do not already have the shell software installed, you will need to
-[download and install][install_shell] it.
+For a Windows computer, download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a>.
+For a Mac computer running macOS, the default Unix Shell is Bash.
+For a Linux computer, the default Unix Shell is likely Bash.
 
-Download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a>.
+If you do not already have the shell software installed, you may need to
+[download and install][install_shell] it.
 
 ## Open a new shell
 After installing the software
