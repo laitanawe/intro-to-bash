@@ -16,6 +16,8 @@ You need to download some files to follow this lesson.
 If you do not already have the shell software installed, you will need to
 [download and install][install_shell] it.
 
+Download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a>.
+
 ## Open a new shell
 After installing the software
 3. Open a terminal.
