@@ -14,10 +14,12 @@ You need to download some files to follow this lesson.
 
 ## Install software
 For a Windows computer, download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a>.
-For a Mac computer running macOS, the default Unix Shell is Bash.
-For a Linux computer, the default Unix Shell is likely Bash.
 
-If you do not already have the shell software installed, you may need to
+For a Mac computer running macOS, the default Unix Shell is Bash.
+
+For a Linux computer, the default Unix Shell is usually Bash.
+
+If you do not already have the shell software installed or do not use any of the operating systems above, you may need to
 [download and install][install_shell] it.
 
 ## Open a new shell
