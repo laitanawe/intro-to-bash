@@ -8,9 +8,9 @@ root: .
 You need to download some files to follow this lesson.
 
 1. Download [shell-lesson-data.zip][zip-file] and move the file to your Desktop and navigate to your desktop from the command line.
-2. cd ~/Desktop
-3. unzip shell-lesson-data.zip
-4. Unzip/extract the file.
+2. In the terminal, type `cd ~/Desktop`
+3. `unzip shell-lesson-data.zip`
+4. Make sure you unzip/extract the file.
    **Let your instructor know if you need help with this step**.
    You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
 
