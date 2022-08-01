@@ -100,6 +100,13 @@ $ mkdir -p ../project/data ../project/results
 ~~~
 {: .language-bash}
 
+OR you can do this:
+
+~~~
+$ mkdir -p ../project/{data,results}
+~~~
+{: .language-bash}
+
 The `-R` option to the `ls` command will list all nested subdirectories within a directory.
 Let's use `ls -FR` to recursively list the new directory hierarchy we just created in the
 `project` directory:
