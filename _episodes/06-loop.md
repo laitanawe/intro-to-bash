@@ -47,7 +47,15 @@ We would like to print out the classification for each species, which is given o
 line of each file.
 For each file, we would need to execute the command `head -n 2` and pipe this to `tail -n 1`.
 We’ll use a loop to solve this problem, but first let’s look at the general form of a loop:
+```
+for something in somethings
+do
+    operation_using_$something    # Indentation within the loop is not required, but aids legibility
+done
+```
+{: .language-bash}
 
+Another analogy:
 ```
 for thing in list_of_things
 do
