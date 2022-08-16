@@ -7,12 +7,10 @@ root: .
 ## Download files
 You need to download some files to follow this lesson.
 
-1. Download [shell-lesson-data.zip][zip-file] and move the file to your Desktop and navigate to your desktop from the command line.
-2. In the terminal, type `cd ~/Desktop`
-3. `unzip shell-lesson-data.zip`
-4. Make sure you unzip/extract the file.
-   **Let your instructor know if you need help with this step**.
-   You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
+1. Download [shell-lesson-data.zip][zip-file] and move the file to your Desktop.
+2. Unzip/extract `shell-lesson-data.zip`
+**Let your instructor know if you need help with this step**.
+You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
 
 ## Install software
 For a Windows computer, download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a>.
@@ -21,14 +19,14 @@ For a Mac computer running macOS, the default Unix Shell is Bash.
 
 For a Linux computer, the default Unix Shell is usually Bash.
 
-If you do not already have the shell software installed or do not use any of the operating systems above, you may need to
-[download and install][install_shell] it.
+If you do not already have the shell software installed or do not use any of the operating 
+systems above, you may need to[download and install][install_shell] it.
 
 ## Open a new shell
 After installing the software
-3. Open a terminal.
-   If you're not sure how to open a terminal on your operating system, see the instructions below.
-4. In the terminal type `cd` then press the <kbd>Return</kbd> key.
+1. Open a terminal. If you're not sure how to open a terminal on your operating system, 
+see the instructions below.
+2. In the terminal type `cd` then press the <kbd>Return</kbd> key.
    This step will make sure you start with your home folder as your working directory.
 
 In the lesson, you will find out how to access the data files in this folder.
