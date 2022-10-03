@@ -30,7 +30,7 @@ For a Mac computer running macOS, the default Unix Shell is Bash.
 For a Linux computer, the default Unix Shell is usually Bash.
 
 If you do not already have the shell software installed or do not use any of the operating
-systems above, you may need to[download and install][install_shell] it.
+systems above, you may need to download and install it.
 
 ## Open a new shell
 After installing the software
