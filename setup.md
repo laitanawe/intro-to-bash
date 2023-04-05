@@ -71,7 +71,7 @@ data-toggle="tab">Linux</a></li>
 <article role="tabpanel" class="tab-pane active" id="windows">
 Computers with Windows operating systems do not automatically have a Unix Shell program
 installed.
-In this lesson, we encourage you to use an emulator included in [Git for Windows][install_shell],
+In this lesson, we encourage you to use an emulator included when you download and install <a href="https://mobaxterm.mobatek.net/download.html">MobaXterm</a> or [Git for Windows][install_shell],
 which gives you access to both Bash shell commands and Git.
 
 Once installed, you can open a terminal by running the program Git Bash from the Windows start
